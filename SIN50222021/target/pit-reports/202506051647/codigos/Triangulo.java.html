@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+
+
+<h1>Triangulo.java</h1>
+
+<table class="src">
+
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@256a0d95_1'/>
+1
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@256a0d95_1'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>package codigos;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@256a0d95_2'/>
+2
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@256a0d95_2'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@256a0d95_3'/>
+3
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@256a0d95_3'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>public class Triangulo {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@256a0d95_4'/>
+4
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@256a0d95_4'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@256a0d95_5'/>
+5
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@256a0d95_5'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public static String classificaTriangulo(int LA, int LB, int LC) throws LadoInvalidoException{</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@256a0d95_6'/>
+6
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@256a0d95_6'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        String resposta=&#34;&#34;;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@256a0d95_7'/>
+7
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@256a0d95_7'>6</a>
+<span>
+1. classificaTriangulo : changed conditional boundary &rarr; KILLED<br/>
+2. classificaTriangulo : changed conditional boundary &rarr; KILLED<br/>
+3. classificaTriangulo : negated conditional &rarr; KILLED<br/>
+4. classificaTriangulo : changed conditional boundary &rarr; KILLED<br/>
+5. classificaTriangulo : negated conditional &rarr; KILLED<br/>
+6. classificaTriangulo : negated conditional &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        if (LA&#60;=0 || LB &#60;=0 || LC &#60;0)</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@256a0d95_8'/>
+8
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@256a0d95_8'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>            throw new LadoInvalidoException(&#34;lado invalido&#34;);</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@256a0d95_9'/>
+9
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@256a0d95_9'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@256a0d95_10'/>
+10
+</td>
+<td class='survived'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@256a0d95_10'>9</a>
+<span>
+1. classificaTriangulo : changed conditional boundary &rarr; SURVIVED<br/>
+2. classificaTriangulo : changed conditional boundary &rarr; SURVIVED<br/>
+3. classificaTriangulo : negated conditional &rarr; KILLED<br/>
+4. classificaTriangulo : negated conditional &rarr; KILLED<br/>
+5. classificaTriangulo : Replaced integer addition with subtraction &rarr; KILLED<br/>
+6. classificaTriangulo : negated conditional &rarr; KILLED<br/>
+7. classificaTriangulo : changed conditional boundary &rarr; KILLED<br/>
+8. classificaTriangulo : Replaced integer addition with subtraction &rarr; KILLED<br/>
+9. classificaTriangulo : Replaced integer addition with subtraction &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='survived'>        if ( (LA &#62;= LB + LC) || (LB &#62;= LA + LC) || (LC &#62; LA + LB))</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@256a0d95_11'/>
+11
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@256a0d95_11'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>            resposta = &#34;NAO FORMA TRIANGULO&#34;;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@256a0d95_12'/>
+12
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@256a0d95_12'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>        else</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@256a0d95_13'/>
+13
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@256a0d95_13'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>        {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@256a0d95_14'/>
+14
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@256a0d95_14'>2</a>
+<span>
+1. classificaTriangulo : negated conditional &rarr; KILLED<br/>
+2. classificaTriangulo : negated conditional &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>            if (LA==LB &#38;&#38; LB==LC)</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@256a0d95_15'/>
+15
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@256a0d95_15'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>                resposta = &#34;EQUILATERO&#34;;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@256a0d95_16'/>
+16
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@256a0d95_16'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>            else</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@256a0d95_17'/>
+17
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@256a0d95_17'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>            {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@256a0d95_18'/>
+18
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@256a0d95_18'>3</a>
+<span>
+1. classificaTriangulo : negated conditional &rarr; KILLED<br/>
+2. classificaTriangulo : negated conditional &rarr; KILLED<br/>
+3. classificaTriangulo : negated conditional &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>                if (LA==LB || LB==LC || LA==LC)</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@256a0d95_19'/>
+19
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@256a0d95_19'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>                    resposta = &#34;ISOSCELES&#34;;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@256a0d95_20'/>
+20
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@256a0d95_20'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>                else</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@256a0d95_21'/>
+21
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@256a0d95_21'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>                    resposta = &#34;ESCALENO&#34;;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@256a0d95_22'/>
+22
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@256a0d95_22'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>            }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@256a0d95_23'/>
+23
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@256a0d95_23'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>        }</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@256a0d95_24'/>
+24
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@256a0d95_24'>1</a>
+<span>
+1. classificaTriangulo : replaced return value with &#34;&#34; for codigos/Triangulo::classificaTriangulo &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        return resposta;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@256a0d95_25'/>
+25
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@256a0d95_25'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@256a0d95_26'/>
+26
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@256a0d95_26'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>}</span></pre></td></tr>
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@256a0d95_7'>7</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@256a0d95_7'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>classificaTriangulo<br/><b>Killed by : </b>codigos.TrianguloTest.testLadoBInvalidoZero(codigos.TrianguloTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>classificaTriangulo<br/><b>Killed by : </b>codigos.TrianguloTest.testLadoCInvalidoZero(codigos.TrianguloTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>classificaTriangulo<br/><b>Killed by : </b>codigos.TrianguloTest.testLadoAInvalidoNegativo(codigos.TrianguloTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>classificaTriangulo<br/><b>Killed by : </b>codigos.TrianguloTest.testLadoAInvalidoZero(codigos.TrianguloTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>5.<span><b>5</b><br/><b>Location : </b>classificaTriangulo<br/><b>Killed by : </b>codigos.TrianguloTest.testLadoBInvalidoNegativo(codigos.TrianguloTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>6.<span><b>6</b><br/><b>Location : </b>classificaTriangulo<br/><b>Killed by : </b>codigos.TrianguloTest.testEscaleno(codigos.TrianguloTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@256a0d95_10'>10</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@256a0d95_10'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>classificaTriangulo<br/><b>Killed by : </b>codigos.TrianguloTest.testEscaleno(codigos.TrianguloTest)</span></span> negated conditional &rarr; KILLED</p> <p class='SURVIVED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>classificaTriangulo<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>classificaTriangulo<br/><b>Killed by : </b>codigos.TrianguloTest.testEscaleno(codigos.TrianguloTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>classificaTriangulo<br/><b>Killed by : </b>codigos.TrianguloTest.testEscaleno(codigos.TrianguloTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>5.<span><b>5</b><br/><b>Location : </b>classificaTriangulo<br/><b>Killed by : </b>codigos.TrianguloTest.testEscaleno(codigos.TrianguloTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>6.<span><b>6</b><br/><b>Location : </b>classificaTriangulo<br/><b>Killed by : </b>codigos.TrianguloTest.testNaoFormaTrianguloASomaDeDoisLadosIgualAoTerceiro(codigos.TrianguloTest)</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>7.<span><b>7</b><br/><b>Location : </b>classificaTriangulo<br/><b>Killed by : </b>codigos.TrianguloTest.testEscaleno(codigos.TrianguloTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='SURVIVED'><span class='pop'>8.<span><b>8</b><br/><b>Location : </b>classificaTriangulo<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>9.<span><b>9</b><br/><b>Location : </b>classificaTriangulo<br/><b>Killed by : </b>codigos.TrianguloTest.testEscaleno(codigos.TrianguloTest)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@256a0d95_14'>14</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@256a0d95_14'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>classificaTriangulo<br/><b>Killed by : </b>codigos.TrianguloTest.testIsoscelesAB(codigos.TrianguloTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>classificaTriangulo<br/><b>Killed by : </b>codigos.TrianguloTest.testIsoscelesBC(codigos.TrianguloTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@256a0d95_18'>18</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@256a0d95_18'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>classificaTriangulo<br/><b>Killed by : </b>codigos.TrianguloTest.testEscaleno(codigos.TrianguloTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>classificaTriangulo<br/><b>Killed by : </b>codigos.TrianguloTest.testEscaleno(codigos.TrianguloTest)</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>classificaTriangulo<br/><b>Killed by : </b>codigos.TrianguloTest.testEscaleno(codigos.TrianguloTest)</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@256a0d95_24'>24</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@256a0d95_24'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>classificaTriangulo<br/><b>Killed by : </b>codigos.TrianguloTest.testEscaleno(codigos.TrianguloTest)</span></span> replaced return value with &#34;&#34; for codigos/Triangulo::classificaTriangulo &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>CONDITIONALS_BOUNDARY</li>
+<li class='mutator'>EMPTY_RETURNS</li>
+<li class='mutator'>FALSE_RETURNS</li>
+<li class='mutator'>INCREMENTS</li>
+<li class='mutator'>INVERT_NEGS</li>
+<li class='mutator'>MATH</li>
+<li class='mutator'>NEGATE_CONDITIONALS</li>
+<li class='mutator'>NULL_RETURNS</li>
+<li class='mutator'>PRIMITIVE_RETURNS</li>
+<li class='mutator'>TRUE_RETURNS</li>
+<li class='mutator'>VOID_METHOD_CALLS</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>codigos.TrianguloTest.testIsoscelesAB(codigos.TrianguloTest) (0 ms)</li><li>codigos.TrianguloTest.testEquilatero(codigos.TrianguloTest) (1 ms)</li><li>codigos.TrianguloTest.testEscaleno(codigos.TrianguloTest) (0 ms)</li><li>codigos.TrianguloTest.testIsoscelesBC(codigos.TrianguloTest) (0 ms)</li><li>codigos.TrianguloTest.testLadoCInvalidoZero(codigos.TrianguloTest) (0 ms)</li><li>codigos.TrianguloTest.testNaoFormaTrianguloASomaDeDoisLadosIgualAoTerceiro(codigos.TrianguloTest) (0 ms)</li><li>codigos.TrianguloTest.testNaoFormaTrianguloASomaDeDoisLadosMenorQueTerceiro1(codigos.TrianguloTest) (0 ms)</li><li>codigos.TrianguloTest.testIsoscelesAC(codigos.TrianguloTest) (0 ms)</li><li>codigos.TrianguloTest.testNaoFormaTrianguloASomaDeDoisLadosMenorQueTerceiro2(codigos.TrianguloTest) (0 ms)</li><li>codigos.TrianguloTest.testNaoFormaTrianguloASomaDeDoisLadosMenorQueTerceiro3(codigos.TrianguloTest) (1 ms)</li><li>codigos.TrianguloTest.testLadoBInvalidoNegativo(codigos.TrianguloTest) (0 ms)</li><li>codigos.TrianguloTest.testLadoCInvalidoNegativo(codigos.TrianguloTest) (0 ms)</li><li>codigos.TrianguloTest.testLadoBInvalidoZero(codigos.TrianguloTest) (0 ms)</li><li>codigos.TrianguloTest.testLadoAInvalidoNegativo(codigos.TrianguloTest) (0 ms)</li><li>codigos.TrianguloTest.testLadoAInvalidoZero(codigos.TrianguloTest) (0 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='https://pitest.org'>PIT</a> 1.16.1
+
+</body>
+</html>
